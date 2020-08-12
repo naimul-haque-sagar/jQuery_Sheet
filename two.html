@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-    <style>  
+    <!-- <style>  
         .st {  
             font-size: 200%;  
             color: red;  
@@ -9,6 +9,12 @@
 <head>
     <title>Hello Page</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head> -->
+<head>
+    <title>Two</title>
+    <link href="http://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet">
+    <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
 </head>
 
 <body>
@@ -104,11 +110,80 @@
 
     </div> -->
 
+    <div class="container">
+        <div id ="accordion">
+                <h3>Accordion one</h3>
+                <div>
+                    <p>First accordion</p>
+                </div>
+
+                <h3>Accordion two</h3>
+                <div>
+                    <p>Second accordion</p>
+                </div>
+
+                <h3>Accordion three</h3>
+                <div>
+                    <p>Third accordion</p>
+                </div>
+        </div>
+
+        <div id ="accordion-1">
+            <h3>Accordion four</h3>
+            <div>
+                <p>Fourth accordion</p>
+            </div>
+
+            <h3>Accordion five</h3>
+            <div>
+                <p>Fifth accordion</p>
+            </div>
+
+            <h3>Accordion six</h3>
+            <div>
+                <p>Sixth accordion</p>
+            </div>
+        </div>
+
+        <div>  
+            <input type="radio" name="disable" id="disableaccordion"    
+               value="disable">Disable accordion  
+            <input type="radio" name="disable" id="enableaccordion" checked   
+               value="enable">Enable accordion  
+         </div>  
+
+         Input: <input id="autocomplete"><br>
+
+         Enter Date: <input type="text" id="date"><br>
+         <div id ="date-1"></div>
+
+         <br>
+         Ener date: <input type="text" id="date-2">
+         <br>
+         Selected date: <input type="text" id="date-3">
+
+         <div id="open">
+             This is a dialog
+         </div>
+         <button id="open-dialog">Open dialog</button>
+
+         <br>
+         <div id="open-1">
+            Movie Dialog
+         </div>
+         <button id="open-dialog-1">Open dialog 2</button>
+
+    </div>
+
+
+
+    <script src="jQuery-UI/three.js"> </script>
+<!-- 
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"
         integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
     <script src="jQuery/two.js"> </script>
     <script src="jQuery/three.js"> </script>
-    <script src="jQuery/four.js"> </script>
+    <script src="jQuery/four.js"> </script> -->
 </body>
 
 </html>
