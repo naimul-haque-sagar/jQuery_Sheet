@@ -25,7 +25,7 @@ Remove class()
 Switch class()
 Animation()
 Easing()
-Effect()
+Effect()    
 
 All jQuery operations are in jQuery folder
 
