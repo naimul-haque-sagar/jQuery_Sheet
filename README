@@ -1,6 +1,6 @@
 jQuery sheet
 
-All jQuery-ui operations are in jQuery-UI folder
+All jQuery-ui operations are in jQuery-UI folder    
 
 Draggable() 
 Droppable()
@@ -14,7 +14,7 @@ DatepickerDialog()
 Menu()
 Progressbar()
 SelectmenuSlider()
-spinner()
+spinner ()
 Tabs Tooltip()
 
 Hide()
